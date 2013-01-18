@@ -8,7 +8,7 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 
-LOCAL_CERTIFICATE := superuser
+LOCAL_CERTIFICATE := $(LOCAL_PATH)/security/superuser
 
 include $(BUILD_PACKAGE)
 
